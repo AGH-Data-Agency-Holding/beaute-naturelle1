@@ -1,0 +1,24 @@
+<resources>
+    <!-- Nom de l'application -->
+    <string name="app_name">beaute_naturelle</string>
+
+    <!-- Theme applied to the Android Window while the process is starting -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <!-- Theme applied after Flutter UI démarre -->
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+
+    <!-- Facebook Login -->
+    <!-- Remplace "1234" par ton vrai App ID Facebook -->
+    <string name="facebook_app_id">3252587241555451</string>
+
+    <!-- Le protocole pour les Custom Tabs de Facebook -->
+    <string name="fb_login_protocol_scheme">fb3252587241555451</string>
+
+    <!-- Client Token Facebook (si tu l’utilises) -->
+    <string name="facebook_client_token">f35082978b471666d68d3580fbf2db8a</string>
+</resources>
