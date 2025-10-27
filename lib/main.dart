@@ -4,11 +4,8 @@ import 'providers/auth_provider.dart';
 import 'screens/login_screen.dart';
 import 'screens/register_screen.dart';
 import 'screens/welcome_screen.dart';
-import 'screens/facial_scan_screen.dart';
-import 'screens/facial_scan_intro_screen.dart';
 import 'screens/splash_screen.dart';
-import 'screens/recipes_page.dart';
-import 'screens/view_all_page.dart';
+
 
 void main() {
   runApp(const BeauteNaturelleApp());
@@ -46,10 +43,7 @@ class BeauteNaturelleApp extends StatelessWidget {
           '/welcome': (context) => const WelcomeScreen(),
           '/login': (context) => const LoginScreen(),
           '/register': (context) => const RegisterScreen(),
-          '/facial-scan': (context) => const FacialScanScreen(),
-          '/facial-scan-intro': (context) => const FacialScanIntroScreen(),
-          '/recipes': (context) => const RecipesPage(),
-          '/view-all': (context) => const ViewAllPage(), // ✅ Nouvelle route ajoutée
+      
         },
       ),
     );
